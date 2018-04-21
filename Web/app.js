@@ -2,8 +2,7 @@
     
     angular.module('TerminAPP', ['ui.router','oc.lazyLoad'])
     .config(function ($stateProvider, $locationProvider, $ocLazyLoadProvider, $urlRouterProvider) {
-        
-        $urlRouterProvider.otherwise("/");
+            $urlRouterProvider.otherwise("/");
             $stateProvider
                 .state("Inicio", {
                     url: "/",

@@ -1,5 +1,5 @@
 (function () {
-    angular.module('myApp').controller("inicioCtrl", function ($scope, $location, $http) {
+    angular.module('TerminAPP').controller("inicioCtrl", function ($scope, $location, $http) {
    
    
     console.log("home controller reached");

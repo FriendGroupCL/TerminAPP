@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-    <meta charset="UTF-8">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!--referencias Angularjs 1.6.9-->
-        <script type="text/javascript" src="js/angular-1.6.9/angular.min.js"></script>
-        <script type="text/javascript" src="js/angular-1.6.9/angular-route.min.js"></script>
-        <!--<script type="text/javascript" src="js/angular-1.6.9/docs/components/jquery-3.2.1/jquery.js"></script>-->
-
-        <!--extencion oc_LazyLoad-->
-        <script type="text/jscript" src="js/ocLazyLoad.js"></script>
-        <script type="text/jscript" src="js/ocLazyLoadRequire.js"></script>
-        <script src="app.js"></script>
-
-        <!--Referencias Template-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    
+    <!--Referencias Template-->
         <!-- Plugin-CSS -->
         <link rel="stylesheet" href="TemplateAppy/css/bootstrap.min.css">
         <link rel="stylesheet" href="TemplateAppy/css/owl.carousel.min.css">
@@ -26,13 +19,23 @@
         <link rel="stylesheet" href="TemplateAppy/style.css">
         <link rel="stylesheet" href="TemplateAppy/css/responsive.css">
         <script src="TemplateAppy/js/vendor/modernizr-2.8.3.min.js"></script>
-        <title> TerminAPP </title>
-    </head>
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
+        <script src="js/ocLazyLoadRequire.js"></script>
+        <script src="js/ocLazyLoad.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
 
-	<body ng-app="TerminAPP">
-            <!--Referecias de template-->
-            <!--Vendor-JS-->
-            <script src="TemplateAppy/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="app.js"></script>
+    
+    
+</head>
+<body ng-app="TerminAPP">
+    <ui-view></ui-view>
+    
+    <script src="TemplateAppy/js/vendor/jquery-1.12.4.min.js"></script>
             <script src="TemplateAppy/js/vendor/jquery-ui.js"></script>
             <script src="TemplateAppy/js/vendor/bootstrap.min.js"></script>
             <!--Plugin-JS-->
@@ -44,6 +47,5 @@
             <script src="TemplateAppy/js/wow.min.js"></script>
             <!--Main-active-JS-->
             <script src="TemplateAppy/js/main.js"></script>
-    </body>
+</body>
 </html>
-
