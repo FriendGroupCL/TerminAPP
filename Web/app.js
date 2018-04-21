@@ -1,12 +1,13 @@
 (function () {
     
-    angular.module('myApp', ['ui.router','oc.lazyLoad'])
+    angular.module('TerminAPP', ['ui.router','oc.lazyLoad'])
     .config(function ($stateProvider, $locationProvider, $ocLazyLoadProvider, $urlRouterProvider) {
+        
         $urlRouterProvider.otherwise("/");
             $stateProvider
-                .state("home", {
+                .state("Inicio", {
                     url: "/",
-                    templateUrl: "view/inicio.html",
+                    templateUrl: "views/inicio.html",
                     controller: 'inicioCtrl',
                     resolve: { // Any property in resolve should return a promise and is executed before the view is loaded
                         loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
